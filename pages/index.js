@@ -12,7 +12,7 @@ export default function Home() {
         <img className="image" src="profile.jpg" />
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>
-        <h3 className="description">Técnico mecánico eletricista</h3>
+        <h3 className="description">Técnico mecánico electricista</h3>
         <h3 className="description">Estudiante de ing. electrónica</h3>
         <h3 className="description">Mis redes y links de interés:</h3>
         <div className="grid">
