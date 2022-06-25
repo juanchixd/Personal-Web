@@ -150,9 +150,11 @@ export default function Home() {
         @media (prefers-color-scheme: dark) {
           .container {
             background-image: url("background.jpg");
+            // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
+            // background-size: cover;
+            background-size: 100% 100%;
+            // height: 100%;
             // background: rgb(53, 53, 53);
           }
           .description {
@@ -182,9 +184,11 @@ export default function Home() {
         html,
         body {
           background-image: url("background.jpg");
+          // background-image: url("wallpaper.gif");
           background-repeat: no-repeat;
-          background-size: cover;
-          height: 100%;
+          // background-size: cover;
+          background-size: 100% 100%;
+          // height: 100%;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
@@ -193,7 +197,7 @@ export default function Home() {
           box-sizing: border-box;
         }
          body {
-            background-image: url("background.jpg");
+
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
              sans-serif;
