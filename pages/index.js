@@ -151,11 +151,8 @@ export default function Home() {
           .container {
             background-image: url("background.jpg");
             background-repeat: no-repeat;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
             background-size: cover;
-            padding: 0;
+            height: 100%;
             // background: rgb(53, 53, 53);
           }
           .description {
@@ -188,7 +185,6 @@ export default function Home() {
           background-repeat: no-repeat;
           background-size: cover;
           height: 100%;
-          overflow: hidden;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
@@ -196,12 +192,9 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-         body {min-height: 100%;
+         body {
             background-image: url("background.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
              sans-serif;
          }
