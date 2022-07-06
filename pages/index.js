@@ -22,11 +22,11 @@ export default function Home() {
           <a href="https://www.instagram.com/juanchi1020/" className="card">
             <h3>Instagram</h3>
           </a>
-          <a href="https://drive.juangonzalez.com.ar" className="card">
+          <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="card">
             <h3>Drive carpeta facultad interna</h3>
           </a>
 
-          <a href="https://facultad.juangonzalez.com.ar" className="card">
+          <a href="hhttps://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J?usp=sharing" className="card">
             <h3>Drive biblioteca digital</h3>
           </a>
 
