@@ -26,7 +26,7 @@ export default function Home() {
             <h3>Drive carpeta facultad interna</h3>
           </a>
 
-          <a href="hhttps://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J?usp=sharing" className="card">
+          <a href="https://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J?usp=sharing" className="card">
             <h3>Drive biblioteca digital</h3>
           </a>
 
