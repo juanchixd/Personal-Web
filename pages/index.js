@@ -19,6 +19,9 @@ export default function Home() {
           <a href="https://github.com/juanchixd" className="card">
             <h3>Github</h3>
           </a>
+          <a href="https://t.me/juanbgon" className="card">
+            <h3>Telegram</h3>
+          </a>
           <a href="https://www.instagram.com/juanchi1020/" className="card">
             <h3>Instagram</h3>
           </a>
@@ -35,6 +38,7 @@ export default function Home() {
             className="card"
           >
             <h4>contacto@juangonzalez.com.ar</h4>
+    
           </a>
         </div>
       </main>
