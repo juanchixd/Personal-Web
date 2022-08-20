@@ -14,6 +14,7 @@ export default function Home() {
         <h3 className="description">Federación - Concordia - Rosario</h3>
         <h3 className="description">Técnico mecánico electricista</h3>
         <h3 className="description">Estudiante de ing. electrónica</h3>
+        <h3 classname="description">Programador part-time</h3>
         <h3 className="description">Mis redes y links de interés:</h3>
         <div className="grid">
           <a href="https://github.com/juanchixd" className="card">
