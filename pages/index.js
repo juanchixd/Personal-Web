@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 export default function Home() {
   return (
     <div className="container">
@@ -8,9 +7,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{ borderRadius: '50%', overflow: 'hidden', width: '200px', height: '200px' }}>
-          <Image src="/profile.jpg" alt="profile" width='200' height='200'/> 
-        </div>
+        <img className="image" src="profile.jpg" />
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>
         <h3 className="description">Técnico mecánico electricista</h3>
