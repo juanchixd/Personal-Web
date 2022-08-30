@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="container">
@@ -7,14 +7,15 @@ export default function Home() {
         <title>Juanchi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
-        <img className="image" src="profile.jpg" />
+        <div style={{ borderRadius: '50%', overflow: 'hidden', width: '200px', height: '200px' }}>
+          <Image src="/profile.jpg" alt="profile" width='200' height='200'/> 
+        </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>
         <h3 className="description">Técnico mecánico electricista</h3>
         <h3 className="description">Estudiante de ing. electrónica</h3>
-        <h3 classname="description">Programador part-time</h3>
+        <h3 className="description">Programador part-time</h3>
         <h3 className="description">Mis redes y links de interés:</h3>
         <div className="grid">
           <a href="https://github.com/juanchixd" className="card">
@@ -67,6 +68,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          -webkit-text-stroke: #D7DBDD;
         }
         .footer img {
           margin-left: 0.5rem;
@@ -75,6 +77,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          -webkit-text-stroke: #D7DBDD;
         }
         .container {
           min-height: 100vh;
@@ -84,6 +87,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           align: center;
+          -webkit-text-stroke: #D7DBDD;
         }
         main {
           padding: 4rem 0;
@@ -93,6 +97,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           alig: center;
+          -webkit-text-stroke: #D7DBDD;
         }
         .image {
           border-radius: 50%;
@@ -106,6 +111,7 @@ export default function Home() {
         .title a {
           color: #0070f3;
           text-decoration: none;
+          -webkit-text-stroke: #D7DBDD;
         }
         .title a:hover,
         .title a:focus,
@@ -123,6 +129,7 @@ export default function Home() {
           line-height: 1.5;
           font-size: 1.5rem;
           margin: 0.5rem 1rem;
+          -webkit-text-stroke: #D7DBDD;
         }
         .grid {
           display: flex;
@@ -161,19 +168,28 @@ export default function Home() {
         /* Dark mode */
         @media (prefers-color-scheme: dark) {
           .container {
-            background-image: url("background.jpg");
+            background-image: url("background3.jpg");
             // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
-            // background-size: cover;
-            background-size: 100% 100%;
+            background-size: cover;
+            background-position: center;
+            //background-size: 100% 100%;
             // height: 100%;
             // background: rgb(53, 53, 53);
           }
           .description {
             color: white;
+            text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
           }
           .footer {
             color: white;
+            text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
           }
         }
         @media (max-width: 600px) {
@@ -195,10 +211,10 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
-          background-image: url("background.jpg");
+          background-image: url("background3.jpg");
           // background-image: url("wallpaper.gif");
           background-repeat: no-repeat;
-          // background-size: cover;
+          background-size: cover;
           background-size: 100% 100%;
           // height: 100%;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -209,7 +225,6 @@ export default function Home() {
           box-sizing: border-box;
         }
          body {
-
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
              sans-serif;

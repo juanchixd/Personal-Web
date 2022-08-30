@@ -2,5 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
 }
-
-module.exports = nextConfig
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/wpp',
+        destination: 'https://wa.me/+5493454087690',
+        permanent: true,
+      },
+    ]
+  },
+}
+//module.exports = nextConfig
