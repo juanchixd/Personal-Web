@@ -24,6 +24,11 @@ export default function Home() {
           <a href="https://www.instagram.com/juanchi1020/" className="card">
             <h3>Instagram</h3>
           </a>
+
+          <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="card">
+            <h3>Libros</h3>
+          </a>
+          
           <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="card">
             <h3>Drive carpeta facultad interna</h3>
           </a>
@@ -32,9 +37,7 @@ export default function Home() {
             <h3>Drive biblioteca digital</h3>
           </a>
     
-          <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="card">
-            <h3>Libros</h3>
-          </a>
+          
     
           <a href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w" className="card">
             <h3>Listas de reproducción</h3>
