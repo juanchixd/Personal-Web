@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Image from 'next/image'
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className="container">
@@ -7,7 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <img className="image" src="profile.jpg" />
+        <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+          <Image src="/profile.jpg" width="200px" height="200px" alt="Profile"/>
+        </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>
         <h3 className="description">Técnico mecánico electricista</h3>
@@ -24,21 +28,21 @@ export default function Home() {
           <a href="https://www.instagram.com/juanchi1020/" className="card">
             <h3>Instagram</h3>
           </a>
-
-          <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="card">
-            <h3>Libros</h3>
-          </a>
-          
-          <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="card">
-            <h3>Drive carpeta facultad interna</h3>
-          </a>
-
-          <a href="https://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J?usp=sharing" className="card">
-            <h3>Drive biblioteca digital</h3>
-          </a>
-    
-          
-    
+          <Link href="/libros">
+            <a className="card">
+              <h3>Libros</h3>
+            </a>
+          </Link>
+          <Link href="/drive">
+            <a className="card">
+              <h3>Drive carpeta facultad interna</h3>
+            </a>
+          </Link>
+          <Link href="/facultad">
+            <a className="card">
+              <h3>Drive biblioteca digital</h3>
+            </a>
+          </Link>
           <a href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w" className="card">
             <h3>Listas de reproducción</h3>
           </a>
@@ -69,9 +73,6 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           -webkit-text-stroke: #D7DBDD;
-        }
-        .footer img {
-          margin-left: 0.5rem;
         }
         .footer a {
           display: flex;
@@ -180,16 +181,16 @@ export default function Home() {
           .description {
             color: white;
             text-shadow: 1px  0px 0px black,
-               0px  1px 0px black,
+              0px  1px 0px black,
               -1px  0px 0px black,
-               0px -1px 0px black;
+              0px -1px 0px black;
           }
           .footer {
             color: white;
             text-shadow: 1px  0px 0px black,
-               0px  1px 0px black,
+              0px  1px 0px black,
               -1px  0px 0px black,
-               0px -1px 0px black;
+              0px -1px 0px black;
           }
         }
         @media (max-width: 600px) {
@@ -212,11 +213,9 @@ export default function Home() {
         html,
         body {
           background-image: url("background3.jpg");
-          // background-image: url("wallpaper.gif");
           background-repeat: no-repeat;
           background-size: cover;
           background-size: 100% 100%;
-          // height: 100%;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
@@ -224,17 +223,15 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-         body {
+        body {
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
              sans-serif;
          }
-
         a {
           color: inherit;
           text-decoration: none;
         }
-
         * {
           box-sizing: border-box;
         }
