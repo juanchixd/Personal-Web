@@ -15,15 +15,17 @@ function libros() {
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Libros</h3>
         <Link href="/">
-            <a className="card">
+            <a className="description">
               <h3>Volver al inicio</h3>
             </a>
           </Link>
+          <div className="frame">
         <iframe 
           src="https://drive.google.com/embeddedfolderview?id=1IwZqxemJODWIVpUFehQsiTDElGf5wiJd#list"
           height="600px" width="400px"
         ></iframe>
-        <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="card">
+        </div>
+        <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="description">
             <h3>Si no podes visualizar, apreta aca</h3>
         </a>
       </main>
@@ -37,6 +39,15 @@ function libros() {
         </a>
       </footer>
       <style jsx>{`
+      .frame{
+        background-color: #97B4BF ; /* Fallback color */
+        opacity: 0.8;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: relative;
+        padding: 20px;
+        z-index: 2;
+      }
         .footer {
           width: 100%;
           height: 100px;

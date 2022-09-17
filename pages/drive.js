@@ -15,15 +15,17 @@ function Drive() {
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Carpetas materias</h3>
         <Link href="/">
-            <a className="card">
-              <h3>Volver al inicio</h3>
-            </a>
-          </Link>
-        <iframe 
-          src="https://drive.google.com/embeddedfolderview?id=1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W#list"
-          height="600px" width="400px"
-        ></iframe>
-        <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="card">
+          <a className="description">
+            <h3>Volver al inicio</h3>
+          </a>
+        </Link>
+        <div className="frame">
+          <iframe 
+            src="https://drive.google.com/embeddedfolderview?id=1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W#list"
+            height="600px" width="400px" color="red"
+          ></iframe>
+        </div>
+        <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="description">
             <h3>Si no podes visualizar, apreta aca</h3>
         </a>
       </main>
@@ -37,6 +39,15 @@ function Drive() {
         </a>
       </footer>
       <style jsx>{`
+        .frame{
+          background-color: #97B4BF ; /* Fallback color */
+          opacity: 0.8;
+          font-weight: bold;
+          border: 3px solid #f1f1f1;
+          position: relative;
+          padding: 20px;
+          z-index: 2;
+        }
         .footer {
           width: 100%;
           height: 100px;
@@ -108,13 +119,9 @@ function Drive() {
         @media (prefers-color-scheme: dark) {
           .container {
             background-image: url("background3.jpg");
-            // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            //background-size: 100% 100%;
-            // height: 100%;
-            // background: rgb(53, 53, 53);
           }
           .description {
             color: white;
