@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from 'next/image'
 import Link from 'next/link'
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
       </Head>
       <main>
         <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <Image src="/profile.jpg" width="200px" height="200px" alt="Profile"/>
+          <img className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>

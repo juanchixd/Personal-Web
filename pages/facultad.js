@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from 'next/image'
+import Link from 'next/link'
 
 function facultad() {
   return (
@@ -9,16 +9,16 @@ function facultad() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{ borderRadius: "50%", overflow: "hidden" }}>
-          <Image
-            src="/profile.jpg"
-            width="200px"
-            height="200px"
-            alt="Profile"
-          />
+      <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+          <img className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Biblioteca digital</h3>
+        <Link href="/">
+            <a className="card">
+              <h3>Volver al inicio</h3>
+            </a>
+          </Link>
         <iframe 
           src="https://drive.google.com/embeddedfolderview?id=1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J#list"
           height="600px" width="400px"
