@@ -10,7 +10,7 @@ function facultad() {
       </Head>
       <main>
       <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <img className="image" src="profile.jpg" />
+        <img alt={alt} className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Biblioteca digital</h3>

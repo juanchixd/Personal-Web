@@ -10,7 +10,7 @@ function libros() {
       </Head>
       <main>
         <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <img className="image" src="profile.jpg" />
+        <img alt={alt} className="image" src="profile.jpg" />
         </div>
         <h2 className="description">@juanchi1020</h2>
         <h1 className="description">Libros</h1>
