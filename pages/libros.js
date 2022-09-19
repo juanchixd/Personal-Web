@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Link from 'next/link'
-
+import Link from 'next/link';
+import Image from 'next/images';
 function libros() {
   return (
     <div className="container">
@@ -9,8 +9,9 @@ function libros() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <img className="image" src="profile.jpg" />
+      <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+      <Image src="/profile.jpg" alt={alt} width={200} height={200} />
+          {/* <img alt={alt} className="image" src="profile.jpg" /> */}
         </div>
         <h2 className="description">@juanchi1020</h2>
         <h1 className="description">Libros</h1>

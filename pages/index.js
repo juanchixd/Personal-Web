@@ -1,6 +1,7 @@
 import Head from "next/head";
-import Link from 'next/link'
-export default function Home() {
+import Link from 'next/link';
+import Image from 'next/image';
+export default function Home(alt) {
   return (
     <div className="container">
       <Head>
@@ -8,8 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <img className="image" src="profile.jpg" />
+      <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+      <Image src="/profile.jpg" alt={alt} width={200} height={200} />
+          {/* <img alt={alt} className="image" src="profile.jpg" /> */}
         </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Federación - Concordia - Rosario</h3>
