@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from 'next/link'
 
-function Drive() {
+function Drive(alt) {
   return (
     <div className="container">
       <Head>

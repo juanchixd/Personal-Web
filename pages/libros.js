@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from 'next/link'
 
-function libros() {
+function libros(alt) {
   return (
     <div className="container">
       <Head>
