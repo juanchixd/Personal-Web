@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
 
-function facultad(alt) {
+function facultad() {
   return (
     <div className="container">
       <Head>
@@ -11,8 +10,7 @@ function facultad(alt) {
       </Head>
       <main>
       <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-      <Image src="/profile.jpg" alt={alt} width={200} height={200} />
-          {/* <img alt={alt} className="image" src="profile.jpg" /> */}
+          <img className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
         <h3 className="description">Biblioteca digital</h3>
