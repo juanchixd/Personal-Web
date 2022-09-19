@@ -5,11 +5,11 @@ function Drive() {
   return (
     <div className="container">
       <Head>
-        <title>Juanchi</title>
+        <title>Juanchi - Drive interno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+        <div style={{borderRadius: '50%', overflow: 'hidden'}}>
           <img className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
@@ -22,7 +22,6 @@ function Drive() {
         <div className="frame">
           <iframe 
             src="https://drive.google.com/embeddedfolderview?id=1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W#list"
-            height="600px" width="400px" color="red"
           ></iframe>
         </div>
         <a href="https://drive.google.com/drive/folders/1FYUe2-QsNmf1yBmEc3aUTy_iAMUdkx5W?usp=sharing" className="description">
@@ -43,10 +42,22 @@ function Drive() {
           background-color: #97B4BF ; /* Fallback color */
           opacity: 0.8;
           font-weight: bold;
-          border: 3px solid #f1f1f1;
+          border: 2px solid #f1f1f1;
           position: relative;
-          padding: 20px;
+          padding: 5px;
           z-index: 2;
+        }
+        @media(max-width: 768px){
+          .frame iframe{
+            height: 550px;
+            width: 100%;
+          }
+        }
+        @media(min-width: 768px){
+          .frame iframe{
+            height: 800px;
+            width: 700px;
+          }
         }
         .footer {
           width: 100%;
@@ -111,9 +122,10 @@ function Drive() {
           color: black;
           text-align: center;
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           margin: 0.5rem 1rem;
           -webkit-text-stroke: #d7dbdd;
+          text-shadow: 1px  0px 0px white, 0px  1px 0px white, 1px  1px 0px white, 1px -1px 0px white, -1px  1px 0px white, -1px -1px 0px white, 1px  0px 0px white, 0px  1px 0px white;
         }
         /* Dark mode */
         @media (prefers-color-scheme: dark) {
@@ -156,8 +168,7 @@ function Drive() {
           background-image: url("background3.jpg");
           background-repeat: no-repeat;
           background-size: cover;
-          background-size: 100% 100%;
-          // height: 100%;
+          background-position: center;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

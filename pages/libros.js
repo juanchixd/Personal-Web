@@ -5,15 +5,15 @@ function libros() {
   return (
     <div className="container">
       <Head>
-        <title>Juanchi</title>
+        <title>Juanchi - Libros</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <div style={{borderRadius: '50%', overflow: 'hidden'}}>
           <img className="image" src="profile.jpg" />
         </div>
-        <h3 className="description">@juanchi1020</h3>
-        <h3 className="description">Libros</h3>
+        <h2 className="description">@juanchi1020</h2>
+        <h1 className="description">Libros</h1>
         <Link href="/">
             <a className="description">
               <h3>Volver al inicio</h3>
@@ -22,11 +22,11 @@ function libros() {
           <div className="frame">
         <iframe 
           src="https://drive.google.com/embeddedfolderview?id=1IwZqxemJODWIVpUFehQsiTDElGf5wiJd#list"
-          height="600px" width="400px"
+          
         ></iframe>
         </div>
         <a href="https://drive.google.com/drive/folders/1IwZqxemJODWIVpUFehQsiTDElGf5wiJd?usp=sharing" className="description">
-            <h3>Si no podes visualizar, apreta aca</h3>
+            <h4>Si no podes visualizar, apreta aca</h4>
         </a>
       </main>
       <footer className="footer">
@@ -41,12 +41,24 @@ function libros() {
       <style jsx>{`
       .frame{
         background-color: #97B4BF ; /* Fallback color */
-        opacity: 0.8;
-        font-weight: bold;
-        border: 3px solid #f1f1f1;
-        position: relative;
-        padding: 20px;
-        z-index: 2;
+          opacity: 0.8;
+          font-weight: bold;
+          border: 2px solid #f1f1f1;
+          position: relative;
+          padding: 5px;
+          z-index: 2;
+      }
+      @media(max-width: 768px){
+        .frame iframe{
+          height: 550px;
+          width: 100%;
+        }
+      }
+      @media(min-width: 768px){
+        .frame iframe{
+          height: 800px;
+          width: 700px;
+        }
       }
         .footer {
           width: 100%;
@@ -111,21 +123,18 @@ function libros() {
           color: black;
           text-align: center;
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           margin: 0.5rem 1rem;
           -webkit-text-stroke: #d7dbdd;
+          text-shadow: 1px  0px 0px white, 0px  1px 0px white, 1px  1px 0px white, 1px -1px 0px white, -1px  1px 0px white, -1px -1px 0px white, 1px  0px 0px white, 0px  1px 0px white;
         }
         /* Dark mode */
         @media (prefers-color-scheme: dark) {
           .container {
             background-image: url("background3.jpg");
-            // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            //background-size: 100% 100%;
-            // height: 100%;
-            // background: rgb(53, 53, 53);
           }
           .description {
             color: white;
@@ -160,8 +169,7 @@ function libros() {
           background-image: url("background3.jpg");
           background-repeat: no-repeat;
           background-size: cover;
-          background-size: 100% 100%;
-          // height: 100%;
+          background-position: center;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

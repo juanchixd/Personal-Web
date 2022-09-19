@@ -5,7 +5,7 @@ function facultad() {
   return (
     <div className="container">
       <Head>
-        <title>Juanchi</title>
+        <title>Juanchi - Biblioteca digital</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -22,7 +22,6 @@ function facultad() {
           <div className="frame">
         <iframe 
           src="https://drive.google.com/embeddedfolderview?id=1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J#list"
-          height="600px" width="400px"
         ></iframe>
         </div>
         <a href="https://drive.google.com/drive/folders/1Iyuq-KlP0f0Mo7oHSnS3thSBglmdf60J?usp=sharing" className="description">
@@ -41,12 +40,24 @@ function facultad() {
       <style jsx>{`
       .frame{
         background-color: #97B4BF ; /* Fallback color */
-        opacity: 0.8;
-        font-weight: bold;
-        border: 3px solid #f1f1f1;
-        position: relative;
-        padding: 20px;
-        z-index: 2;
+          opacity: 0.8;
+          font-weight: bold;
+          border: 2px solid #f1f1f1;
+          position: relative;
+          padding: 5px;
+          z-index: 2;
+      }
+      @media(max-width: 768px){
+        .frame iframe{
+          height: 550px;
+          width: 100%;
+        }
+      }
+      @media(min-width: 768px){
+        .frame iframe{
+          height: 800px;
+          width: 700px;
+        }
       }
         .footer {
           width: 100%;
@@ -111,21 +122,18 @@ function facultad() {
           color: black;
           text-align: center;
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           margin: 0.5rem 1rem;
           -webkit-text-stroke: #d7dbdd;
+          text-shadow: 1px  0px 0px white, 0px  1px 0px white, 1px  1px 0px white, 1px -1px 0px white, -1px  1px 0px white, -1px -1px 0px white, 1px  0px 0px white, 0px  1px 0px white;
         }
         /* Dark mode */
         @media (prefers-color-scheme: dark) {
           .container {
             background-image: url("background3.jpg");
-            // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            //background-size: 100% 100%;
-            // height: 100%;
-            // background: rgb(53, 53, 53);
           }
           .description {
             color: white;
@@ -160,8 +168,7 @@ function facultad() {
           background-image: url("background3.jpg");
           background-repeat: no-repeat;
           background-size: cover;
-          background-size: 100% 100%;
-          // height: 100%;
+          background-position: center;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;

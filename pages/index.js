@@ -78,6 +78,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           -webkit-text-stroke: #D7DBDD;
+          text-shadow: 1px  0px 0px white, 0px  1px 0px white, 0px -1px 0px white, -1px  0px 0px white;
         }
         .container {
           min-height: 100vh;
@@ -127,9 +128,10 @@ export default function Home() {
           color: black;
           text-align: center;
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1.25rem;
           margin: 0.5rem 1rem;
           -webkit-text-stroke: #D7DBDD;
+          text-shadow: 1px  0px 0px white, 0px  1px 0px white, 1px  1px 0px white, 1px -1px 0px white, -1px  1px 0px white, -1px -1px 0px white, 1px  0px 0px white, 0px  1px 0px white;
         }
         .grid {
           display: flex;
@@ -169,13 +171,9 @@ export default function Home() {
         @media (prefers-color-scheme: dark) {
           .container {
             background-image: url("background3.jpg");
-            // background-image: url("wallpaper.gif");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            //background-size: 100% 100%;
-            // height: 100%;
-            // background: rgb(53, 53, 53);
           }
           .description {
             color: white;
@@ -185,6 +183,13 @@ export default function Home() {
               0px -1px 0px black;
           }
           .footer {
+            color: white;
+            text-shadow: 1px  0px 0px black,
+              0px  1px 0px black,
+              -1px  0px 0px black,
+              0px -1px 0px black;
+          }
+          .footer a{
             color: white;
             text-shadow: 1px  0px 0px black,
               0px  1px 0px black,
@@ -214,7 +219,7 @@ export default function Home() {
           background-image: url("background3.jpg");
           background-repeat: no-repeat;
           background-size: cover;
-          background-size: 100% 100%;
+          background-position: center;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
