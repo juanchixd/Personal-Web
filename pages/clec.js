@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Link from 'next/link'
-export default function Home(alt) {
-  return (
+function clec(alt) {
+    return (
     <div className="container">
       <Head>
-        <title>Juanchi - Clec</title>
+        <title>Juanchi - CLEC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -12,7 +12,7 @@ export default function Home(alt) {
         <img alt={alt} className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
-        <h3 className="description">Clec</h3>
+        <h3 className="description">CLEC</h3>
         <Link href="/">
             <a className="description">
               <h3>Volver al inicio</h3>
@@ -228,3 +228,4 @@ export default function Home(alt) {
     </div>
   );
 }
+export default clec;

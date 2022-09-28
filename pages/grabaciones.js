@@ -1,59 +1,33 @@
 import Head from "next/head";
 import Link from 'next/link'
-export default function Home(alt) {
-  return (
+function grabaciones(alt) {
+    return (
     <div className="container">
       <Head>
-        <title>Juanchi</title>
+        <title>Juanchi - Clec</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{borderRadius: '50%', overflow: 'hidden'}}>
-          <img alt={alt} className="image" src="profile.jpg" />
+      <div style={{borderRadius: '50%', overflow: 'hidden'}}>
+        <img alt={alt} className="image" src="profile.jpg" />
         </div>
         <h3 className="description">@juanchi1020</h3>
-        <h3 className="description">Federación - Concordia - Rosario</h3>
-        <h3 className="description">Técnico mecánico electricista</h3>
-        <h3 className="description">Estudiante de ing. electrónica</h3>
-        <h3 className="description">Programador part-time</h3>
-        <h3 className="description">Mis redes y links de interés:</h3>
+        <h3 className="description">Grabaciones</h3>
+        <Link href="/">
+            <a className="description">
+              <h3>Volver al inicio</h3>
+            </a>
+          </Link>
         <div className="grid">
-          <a href="https://github.com/juanchixd" className="card">
-            <h3>Github</h3>
-          </a>
-          <a href="https://t.me/juanbgon" className="card">
-            <h3>Telegram</h3>
-          </a>
-          <a href="https://www.instagram.com/juanchi1020/" className="card">
-            <h3>Instagram</h3>
-          </a>
-          <Link href="/libros">
-            <a className="card">
-              <h3>Libros</h3>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtgUX1awj90MxOgBjzn2N1q" className="card">
+                <h3>Algebra lineal</h3>
             </a>
-          </Link>
-          <Link href="/drive">
-            <a className="card">
-              <h3>Drive carpeta facultad interna</h3>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuyuIoZuEHtavMY6Yxh-vlP" className="card">
+                <h3>Fisica I</h3>
             </a>
-          </Link>
-          <Link href="/facultad">
-            <a className="card">
-              <h3>Drive biblioteca digital</h3>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuubowDTFcbDircn99CFqQi" className="card">
+                <h3>Informatica Aplicada ECA</h3>
             </a>
-          </Link>
-          <a href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w" className="card">
-            <h3>Listas de reproducción</h3>
-          </a>
-          <a href="mailto:contacto@juangonzalez.com.ar"
-            className="card">
-            <h4>contacto@juangonzalez.com.ar</h4>
-          </a>
-          <Link href="/grabaciones">
-            <a className="card">
-              <h3>Grabaciones</h3>
-            </a>
-          </Link>
         </div>
       </main>
       <footer className="footer">
@@ -245,3 +219,4 @@ export default function Home(alt) {
     </div>
   );
 }
+export default grabaciones;
