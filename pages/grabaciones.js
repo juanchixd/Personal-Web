@@ -28,6 +28,9 @@ function grabaciones(alt) {
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuubowDTFcbDircn99CFqQi" className="card">
                 <h3>Informatica Aplicada ECA</h3>
             </a>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuIndCYD2gjYmy3TKylN3lf" className="card">
+                <h3>Matematica Aplicada</h3>
+            </a>
         </div>
       </main>
       <footer className="footer">
