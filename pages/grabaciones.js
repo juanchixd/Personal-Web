@@ -31,6 +31,9 @@ function grabaciones(alt) {
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuIndCYD2gjYmy3TKylN3lf" className="card">
                 <h3>Matematica Aplicada</h3>
             </a>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPsPmcvj4OdzI9s5xpLB0gJi" className="card">
+                <h3>Probabilidad y estadistica</h3>
+            </a>
         </div>
       </main>
       <footer className="footer">
