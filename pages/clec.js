@@ -26,10 +26,10 @@ function clec(alt) {
                 <h3>Grabación 1er año 2do cuatri</h3>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtcBVeHkNgf8-fZV15XtPs5" className="card">
-                <h3>Grabación 2er año 1er cuatri</h3>
+                <h3>Grabación 2do año 1er cuatri</h3>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuNU8KG8M83baPAyOKANAbC" className="card">
-                <h3>Grabación 2er año 2do cuatri</h3>
+                <h3>Grabación 2do año 2do cuatri</h3>
             </a>
             <a href="https://drive.google.com/drive/folders/1X-XPUJMqKL2g-_eSwOXcX-5C_uZTIoNA?usp=sharing" className="card">
                 <h3>Libros</h3>
