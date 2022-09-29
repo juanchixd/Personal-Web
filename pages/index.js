@@ -42,6 +42,16 @@ export default function Home(alt) {
               <h3>Drive biblioteca digital</h3>
             </a>
           </Link>
+          <Link href="/grabaciones">
+            <a className="card">
+              <h3>Grabaciones</h3>
+            </a>
+          </Link>
+          <Link href="/le_piniat">
+            <a className="card">
+              <h3>Le Piñat (ECA)</h3>
+            </a>
+          </Link>
           <a href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w" className="card">
             <h3>Listas de reproducción</h3>
           </a>
@@ -49,11 +59,7 @@ export default function Home(alt) {
             className="card">
             <h4>contacto@juangonzalez.com.ar</h4>
           </a>
-          <Link href="/grabaciones">
-            <a className="card">
-              <h3>Grabaciones</h3>
-            </a>
-          </Link>
+          
         </div>
       </main>
       <footer className="footer">
