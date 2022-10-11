@@ -4,7 +4,7 @@ function grabaciones(alt) {
     return (
     <div className="container">
       <Head>
-        <title>Juanchi - Clec</title>
+        <title>Juanchi - Grabaciones</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
@@ -24,6 +24,9 @@ function grabaciones(alt) {
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuyuIoZuEHtavMY6Yxh-vlP" className="card">
                 <h3>Fisica I</h3>
+            </a>
+            <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuwxxQ835w7h8-DlSdQ3ZRo" className="card">
+                <h3>Fisica II</h3>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuubowDTFcbDircn99CFqQi" className="card">
                 <h3>Informatica Aplicada ECA</h3>
