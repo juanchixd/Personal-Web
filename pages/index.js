@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from 'next/image';
 import styles from "../styles/Home.module.css";
-import profilepic from '/public/profile.jpg';
 
 export default function Home(alt) {
   return (
@@ -12,11 +10,12 @@ export default function Home(alt) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.image}><Image src={profilepic} alt={alt}
-        style={{
+        <div className={styles.image}>
+        <img alt={alt} style={{
           maxWidth: '100%',
           height: 'auto',
-          borderRadius: "50%",}} /></div>
+          borderRadius: "50%",}} src="profile.jpg" />
+        </div>
         <h3 className={styles.description}>@juanchi1020</h3>
         <h3 className={styles.description}>Federación - Concordia - Rosario</h3>
         <h3 className={styles.description}>Técnico mecánico electricista</h3>

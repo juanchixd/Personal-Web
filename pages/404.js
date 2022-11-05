@@ -1,5 +1,11 @@
 import Link from 'next/link';
 
+/**
+ * It returns a div with some text and a link to the homepage
+ * @param props - The props that are passed to the component.
+ * @returns A React component that will be rendered when the user navigates to a route that does not
+ * exist.
+ */
 const MyCustom404Page = (props) => {
   return (
     <div
