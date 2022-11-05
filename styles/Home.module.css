@@ -121,7 +121,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   .container {
-    background-image: url("../public/background3.jpg");
+    background-image: url("../public/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
