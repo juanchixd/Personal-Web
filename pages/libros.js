@@ -23,6 +23,20 @@ function libros(alt) {
               <h3>Volver al inicio</h3>
             </a>
           </Link>
+        <h1 className={styles.description}>Si buscas libros para la facultad apreta
+          <Link href="/drive">
+            <a className={styles.description}>
+              <h3>aca para drive interno mio</h3>
+            </a>
+          </Link>
+          o
+          <Link href="/facultad">
+            <a className={styles.description}>
+              <h3>aca para drive publico de la comunidad</h3>
+            </a>
+          </Link>
+        </h1>
+          
           <div className={styles.frame}>
         <iframe 
           src="https://drive.google.com/embeddedfolderview?id=1IwZqxemJODWIVpUFehQsiTDElGf5wiJd#list"
