@@ -50,6 +50,12 @@ export default function Home(alt) {
               <h3>Drive biblioteca digital</h3>
             </a>
           </Link>
+          <Link href="/software">
+            <a className={styles.card}>
+              <h3>Drive con software</h3>
+            </a>
+          </Link>
+          
           <Link href="/grabaciones">
             <a className={styles.card}>
               <h3>Grabaciones</h3>
@@ -61,13 +67,19 @@ export default function Home(alt) {
             </a>
           </Link>
           <a
+            href=""
+            className={styles.card}
+          >
+            <h3>.</h3>
+          </a>
+          <a href="mailto:contacto@juangonzalez.com.ar" className={styles.card}>
+            <h4>contacto@juangonzalez.com.ar</h4>
+          </a>
+          <a
             href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w"
             className={styles.card}
           >
             <h3>Listas de reproducción</h3>
-          </a>
-          <a href="mailto:contacto@juangonzalez.com.ar" className={styles.card}>
-            <h4>contacto@juangonzalez.com.ar</h4>
           </a>
         </div>
       </main>
