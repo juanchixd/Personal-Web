@@ -24,50 +24,50 @@ export default function Home(alt) {
         <h3 className={styles.description}>Mis redes y links de interés:</h3>
         <div className={styles.grid}>
           <a href="https://github.com/juanchixd" className={styles.card}>
-            <h3>Github</h3>
+            <span><h3>Github</h3></span>
           </a>
           <a href="https://t.me/juanbgon" className={styles.card}>
-            <h3>Telegram</h3>
+            <span><h3>Telegram</h3></span>
           </a>
           <a
             href="https://www.instagram.com/juanchi1020/"
             className={styles.card}
           >
-            <h3>Instagram</h3>
+            <span><h3>Instagram</h3></span>
           </a>
           <Link href="/libros">
             <a className={styles.card}>
-              <h3>Libros</h3>
+              <span><h3>Libros</h3></span>
             </a>
           </Link>
           <Link href="/drive">
             <a className={styles.card}>
-              <h3>Drive carpeta facultad interna</h3>
+              <span><h3>Drive carpeta facultad interna</h3></span>
             </a>
           </Link>
           <Link href="/facultad">
             <a className={styles.card}>
-              <h3>Drive biblioteca digital</h3>
+              <span><h3>Drive biblioteca digital</h3></span>
             </a>
           </Link>
           <Link href="/grabaciones">
             <a className={styles.card}>
-              <h3>Grabaciones</h3>
+              <span><h3>Grabaciones</h3></span>
             </a>
           </Link>
           <Link href="/le_piniat">
             <a className={styles.card}>
-              <h3>Le Piñat (ECA)</h3>
+              <span><h3>Le Piñat (ECA)</h3></span>
             </a>
           </Link>
           <a href="mailto:contacto@juangonzalez.com.ar" className={styles.card}>
-            <h4>contacto@juangonzalez.com.ar</h4>
+            <span><h4>contacto@juangonzalez.com.ar</h4></span>
           </a>
           <a
             href="https://music.youtube.com/browse/UC1Qwaf0hYL4Im88HIfSJ35w"
             className={styles.card}
           >
-            <h3>Listas de reproducción</h3>
+            <span><h3>Listas de reproducción</h3></span>
           </a>
         </div>
       </main>

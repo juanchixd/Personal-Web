@@ -18,11 +18,11 @@ function lepiniat(alt) {
         </div>
         <h2 className={styles.description}>@juanchi1020</h2>
         <h1 className={styles.description}>Copia de Le Piñat en Google Drive</h1>
-        <a href="https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA" className={styles.description}>
-            <h4>Ir al original en MEGA</h4>
+        <a href="https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA" className={styles.card}>
+          <h4>Ir al original en MEGA</h4>
         </a>
         <Link href="/">
-            <a className={styles.description}>
+            <a className={styles.card}>
               <h3>Volver al inicio</h3>
             </a>
           </Link>

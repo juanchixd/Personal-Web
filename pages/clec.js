@@ -18,28 +18,28 @@ function clec(alt) {
         <h3 className={styles.description}>@juanchi1020</h3>
         <h3 className={styles.description}>CLEC</h3>
         <Link href="/">
-            <a className={styles.description}>
+            <a className={styles.card}>
               <h3>Volver al inicio</h3>
             </a>
           </Link>
         <div className={styles.grid}>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtXXVBlxEj-QE7rClb-gYgd" className={styles.card}>
-                <h3>Grabación 1er año 1er cuatri</h3>
+                <span><h3>Grabación 1er año 1er cuatri</h3></span>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuHFV93h2OINwKTzVlm92bc" className={styles.card}>
-                <h3>Grabación 1er año 2do cuatri</h3>
+                <span><h3>Grabación 1er año 2do cuatri</h3></span>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPtcBVeHkNgf8-fZV15XtPs5" className={styles.card}>
-                <h3>Grabación 2do año 1er cuatri</h3>
+                <span><h3>Grabación 2do año 1er cuatri</h3></span>
             </a>
             <a href="https://www.youtube.com/playlist?list=PLvZC6KXjYqPuNU8KG8M83baPAyOKANAbC" className={styles.card}>
-                <h3>Grabación 2do año 2do cuatri</h3>
+                <span><h3>Grabación 2do año 2do cuatri</h3></span>
             </a>
             <a href="https://drive.google.com/drive/folders/1X-XPUJMqKL2g-_eSwOXcX-5C_uZTIoNA?usp=sharing" className={styles.card}>
-                <h3>Libros</h3>
+                <span><h3>Libros</h3></span>
             </a>
             <a href="https://clec-unr.com/moodle30/my/" className={styles.card}>
-                <h3>Campus</h3>
+                <span><h3>Campus</h3></span>
             </a>
         </div>
       </main>
