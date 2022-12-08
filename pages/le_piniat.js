@@ -21,7 +21,7 @@ function lepiniat(alt) {
         <a href="https://mega.nz/folder/cPg1SIhY#mp24oUVNmljh8heVTc37mA" className={styles.card}>
           <h4>Ir al original en MEGA</h4>
         </a>
-        <Link href="/">
+        <Link legacyBehavior href="/">
             <a className={styles.card}>
               <h3>Volver al inicio</h3>
             </a>

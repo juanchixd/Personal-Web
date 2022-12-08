@@ -18,7 +18,7 @@ function facultad(alt) {
         </div>
         <h3 className={styles.description}>@juanchi1020</h3>
         <h3 className={styles.description}>Biblioteca digital</h3>
-        <Link href="/">
+        <Link legacyBehavior href="/">
             <a className={styles.card}>
               <h3>Volver al inicio</h3>
             </a>

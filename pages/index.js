@@ -35,27 +35,27 @@ export default function Home(alt) {
           >
             <span><h3>Instagram</h3></span>
           </a>
-          <Link href="/libros">
+          <Link legacyBehavior href="/libros">
             <a className={styles.card}>
               <span><h3>Libros</h3></span>
             </a>
           </Link>
-          <Link href="/drive">
+          <Link legacyBehavior href="/drive">
             <a className={styles.card}>
               <span><h3>Drive carpeta facultad interna</h3></span>
             </a>
           </Link>
-          <Link href="/facultad">
+          <Link legacyBehavior href="/facultad">
             <a className={styles.card}>
               <span><h3>Drive biblioteca digital</h3></span>
             </a>
           </Link>
-          <Link href="/grabaciones">
+          <Link legacyBehavior href="/grabaciones">
             <a className={styles.card}>
               <span><h3>Grabaciones</h3></span>
             </a>
           </Link>
-          <Link href="/le_piniat">
+          <Link legacyBehavior href="/le_piniat">
             <a className={styles.card}>
               <span><h3>Le Piñat (ECA)</h3></span>
             </a>

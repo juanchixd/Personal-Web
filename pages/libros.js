@@ -18,19 +18,19 @@ function libros(alt) {
         </div>
         <h2 className={styles.description}>@juanchi1020</h2>
         <h1 className={styles.description}>Libros</h1>
-        <Link href="/">
+        <Link legacyBehavior href="/">
             <a className={styles.card}>
               <h3>Volver al inicio</h3>
             </a>
           </Link>
         <h1 className={styles.description}>Si buscas libros para la facultad apreta
-          <Link href="/drive">
+          <Link legacyBehavior href="/drive">
             <a className={styles.card}>
               <h3>aca para drive interno mio</h3>
             </a>
           </Link>
           o
-          <Link href="/facultad">
+          <Link legacyBehavior href="/facultad">
             <a className={styles.card}>
               <h3>aca para drive publico de la comunidad</h3>
             </a>
