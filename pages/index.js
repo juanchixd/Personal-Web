@@ -42,7 +42,7 @@ export default function Home(alt) {
           </Link>
           <Link legacyBehavior href="/drive">
             <a className={styles.card}>
-              <span><h3>Drive carpeta facultad interna</h3></span>
+              <span><h4>Drive carpeta facultad interna</h4></span>
             </a>
           </Link>
           <Link legacyBehavior href="/facultad">
