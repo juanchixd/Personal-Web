@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from 'next/link'
+import Link from 'next/link';
+import Script from 'next/script';
 
 function facultad(alt) {
   return (
@@ -9,6 +10,9 @@ function facultad(alt) {
         <title>Juanchi - Biblioteca digital</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <>
+        <Script src="https://app.embed.im/snow.js" defer />
+      </>
       <main className={styles.main}>
         <div className={styles.image}>
         <img alt={alt} style={{
