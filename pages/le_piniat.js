@@ -32,11 +32,11 @@ function lepiniat(alt) {
           </Link>
           <div className={styles.frame}>
         <iframe 
-          src="https://drive.google.com/embeddedfolderview?id=1OELO6atTvpvTJVbfFmj97JpbRgOMvaWZ#list"
+          src="https://drive.google.com/embeddedfolderview?id=1dV9xHOzA3Lu1PiOI62ugBYOl2prckvaA#list"
           
         ></iframe>
         </div>
-        <a href="https://drive.google.com/drive/folders/1OELO6atTvpvTJVbfFmj97JpbRgOMvaWZ?usp=sharing" className={styles.description}>
+        <a href="https://drive.google.com/drive/folders/1dV9xHOzA3Lu1PiOI62ugBYOl2prckvaA?usp=sharing" className={styles.description}>
             <h4>Si no podes visualizar, apreta aca</h4>
         </a>
       </main>
