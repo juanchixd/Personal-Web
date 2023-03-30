@@ -18,7 +18,7 @@ function facultad(alt) {
         <img alt={alt} style={{
           maxWidth: '100%',
           height: 'auto',
-          borderRadius: "50%",}} src="profile.jpg" />
+          borderRadius: "50%",}} src="profile-min.png" />
         </div>
         <h3 className={styles.description}>@juanchi1020</h3>
         <h3 className={styles.description}>Biblioteca digital</h3>

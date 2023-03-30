@@ -18,7 +18,7 @@ function libros(alt) {
         <img alt={alt} style={{
           maxWidth: '100%',
           height: 'auto',
-          borderRadius: "50%",}} src="profile.jpg" />
+          borderRadius: "50%",}} src="profile-min.png" />
         </div>
         <h2 className={styles.description}>@juanchi1020</h2>
         <h1 className={styles.description}>Libros</h1>
